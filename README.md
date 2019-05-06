@@ -1,7 +1,4 @@
-                         EasyMock Server Procedure
 
-
-Prepared by: Ian
 
 一. Environment Build
 
@@ -12,7 +9,7 @@ Per  Quick Start in the reference site,  we need install node.js(v8.x, v10.x is 
 
 1 Install node.js
 
-# Using Ubuntu
+Using Ubuntu
 
 $> curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
@@ -86,19 +83,19 @@ $> cd redis-5.0.3
 
 $> sudo /redis-5.0.3$ sudo ./src/redis-server  ./redis.conf
 
-# Stop
+ #Stop
 
 #Ctrl+c
 
 
 #$> cd to easy-mock dir
 
-# Build front-end assets
+ #Build front-end assets
 
  /easy-mock$> sudo npm run build
 
 
-# Run Easy Mock as production environment (You should run `build` first)
+ #Run Easy Mock as production environment (You should run `build` first)
 
 /easy-mock$> sudo npm run start
 
@@ -115,7 +112,7 @@ server started at http://0.0.0.0:7300
 
 #check result, visit http://0.0.0.0:7300
 
-# Stop
+#Stop
 
 #Ctrl+c
 
