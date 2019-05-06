@@ -32,6 +32,7 @@ Office site: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
 Office site: https://redis.io/download
 
+Referrence: https://github.com/Ianguoxy/Redis-Installation
 
   # Install EasyMock
   
