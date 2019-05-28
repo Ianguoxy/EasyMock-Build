@@ -24,14 +24,14 @@ Per  Quick Start in the reference site,  we need install node.js(v8.x, v10.x is 
     6.4.1
 
   # Install MongoDB
-
+version 4.0.9
 Office site: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
 # config mongod.conf
 
     sudo vim /etc/mongod.conf
     
-    #bind_ip = 0.0.0.0   #mongodb 允许远程访问配置(ubuntu)
+    bind_ip = 0.0.0.0   #mongodb 允许远程访问配置(ubuntu)
 
 
    # Install Redis
