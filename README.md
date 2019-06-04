@@ -50,6 +50,11 @@ Referrence: https://github.com/Ianguoxy/Redis-Installation
 
 
    # Config EasyMock 
+   
+Update mongo password while the auth login is setup in mongo  as below:
+
+"db": "mongodb://easymock:easymock@localhost:27017/easy-mock",
+
 
 Update redis password as below:
 
